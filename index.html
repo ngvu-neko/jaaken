@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jaken.js"></script>
+  </head>
+  <body>
+
+
+    <!--Main_box-->
+
+
+    <div class="box">
+
+      <div class="frist">
+        <h1>Welcom To Jakken Game</h1>
+      </div>
+      <div class = "img-icon">
+        <img src="img/icons8-hand-50.png" width = 50px, height=50px>
+        <img src="img/icons8-hand-rock-50.png" width = 55px, height=55px>
+        <img src= "img/icons8-hand-scissors-50.png" width = 50px, height=50px>
+      </div>
+
+      <!-- inputbox -->
+
+
+      <div class="input_box">
+
+        <form action="">
+          <lable id='amount' for='nameField'></lable>
+          <input id='amount_box' type='text' maxlength='3' placeholder="人数(例：1,2,..)" ></input>
+          <div class='form-sub'>
+            <button id='subButton' type='button' onclick=findReslut()>Start</button>
+          </div>
+        </form>
+        <div class="find">
+          <button  id='subButton' type='button' onclick=findWinner_main()>Find</button>
+        </div>
+      </div>
+
+
+      <!-- pirnt reslut -->
+
+      <p id = "result"></p>
+
+      <!-- Rule -->
+
+      <div class="ruru">
+        <strong>Rule :</strong>
+        <p>*本サイトでは多人数でじゃんけんゲームが遊べるサイトで、コンピューターが自動的に勝ちのHand(ぐー、パー、ちょき)を探してもらいます。</p>
+        <p>*あなたはinputのボックスに人数を記入し、Startのボタンを押せば、結果が出られます。</p>
+        <p>*FINDのボタンを押せば、勝ちの結果まで、自動的に計算することができます。</p>
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

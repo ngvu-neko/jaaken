@@ -1,0 +1,121 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;
+  color : #333;
+  background: linear-gradient(to left ,#D6E6F2, #B9D7EA )
+}
+.box{
+    width : 1200px;
+    height: 900px;
+    position: relative;
+    box-shadow: 0 27px 87px rgba(0, 0, 0 ,0.37);
+    border-radius: 15px;
+    margin: 0 auto  ;
+    overflow: hidden;
+    background: #fff;
+}
+
+
+/* setting element */
+
+
+strong{
+  font-size: 30px;
+}
+
+h1{
+    font-family: Roboto;
+    font-size: 40px;
+}
+img{
+  margin-left:10px;
+}
+
+/* say Hello */
+.frist{
+  margin-top: 50px;
+  margin-left: 400px;
+}
+
+/* Icon */
+
+.img-icon{
+  margin-top:20px;
+  margin-left:520px;
+  margin-bottom:20px;
+}
+
+
+.input_box {
+  margin-left: 520px;
+}
+
+.form-sub{
+  padding: 10px 0 0 70px;
+}
+.find{
+  padding: 10px 0 0 70px;
+}
+
+/* setting input box and result  */
+#amount_box{
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+
+}
+#result {
+  margin-left: 480px;
+  font-size: 17px;
+}
+
+
+#subButton{
+  width: 70px;
+  height: 30px;
+  background: #66DE93;
+  border: none;
+  border-radius: 4px;
+}
+#subButton:hover{
+  background: #1FAB89;
+  box-shadow: 0 27px 87px rgba(0, 0, 0 ,0.37);
+}
+
+
+/* Setting Rule  */
+.ruru{
+  padding:150px 150px 0 150px;
+}
+
+
+
+
+/* if the screen is the size of the phone */
+
+
+@media only screen and (max-width:768px) {
+  .box{
+  flex-flow:row;
+  width: 450px;
+  height:680px;
+ }
+ .ruru, #result{
+   padding: inherit;
+   margin: auto;
+ }
+ .frist{
+   padding: inherit;
+   margin-left: 45px;
+ }
+ .img-icon, .input_box{
+   padding: inherit;
+   margin-left: 120px;
+ }
+ h1{
+   font-size: 35px;
+ }
+ #reslut{
+   padding: inherit;
+ }
+}
